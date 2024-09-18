@@ -21,7 +21,7 @@ public class Main {
 		System.out.println("ok " + name + " name a noun");
 		String noun1 = in.nextLine();
 
-		System.out.println("ok " + name + " name another noun");
+		System.out.println("ok " + name + " name a fruit or vegetable");
 		String noun2 = in.nextLine();
 
 		System.out.println("ok " + name + " name a last noun");
@@ -52,7 +52,7 @@ public class Main {
 					+ " a " + pet);
 			System.out.println(
 					"since " + name + " is a solid " + str + "/10 in strength he decides to punch his friend since "
-							+ pet + " is his favorite animal however he is too weak and gets knocked out");
+							+ pet + "s are his favorite animal however he is too weak and gets knocked out");
 			System.out.println("the last thing " + name + " saw was a " + verb3 + " " + noun3);
 		}
 		if (str > 10) {
@@ -67,7 +67,7 @@ public class Main {
 				System.out.println("but while " + name + " was looking around he saw his best frind" + name2 + " "
 						+ verb + " a " + pet);
 				System.out.println("since " + name + " is a solid " + str + "/10 in strength "
-						+ "he decides to punch his friend since " + pet + " is his favorite animal,");
+						+ "he decides to punch his friend since " + pet + "s are his favorite animal,");
 				System.out.println("Since " + name + " is so Strong He punches " + name2 + " And knockes him out cold");
 				System.out.println(name + " Procedes to mock " + name2 + " Calling Him a " + verb3 + " " + noun3);
 				in.close();
